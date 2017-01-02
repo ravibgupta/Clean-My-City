@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_myComplaints"
+            android:icon="@drawable/ic_menu_mycomplaints"
+            android:title="My Complaints" />
+        <item
+            android:id="@+id/nav_pendingUploads"
+            android:icon="@drawable/ic_menu_pendinguploads"
+            android:title="Pending Uploads" />
+    </group>
+
+    <item android:title="Help">
+        <menu>
+            <item
+                android:id="@+id/nav_usage"
+                android:icon="@drawable/ic_menu_usage"
+                android:title="How to use" />
+        </menu>
+    </item>
+
+</menu>
